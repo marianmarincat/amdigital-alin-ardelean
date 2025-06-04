@@ -1,3 +1,6 @@
+`):
+
+```json
 {
     "name": "AMDigital - Alin Ardelean",
     "short_name": "Alin Ardelean",
@@ -14,13 +17,50 @@
             "src": "amdigital.png",
             "sizes": "192x192",
             "type": "image/png",
-            "purpose": "any maskable"
+            "purpose": "any"  // MODIFICAT
+        },
+        {
+            "src": "amdigital.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable" // MODIFICAT
         },
         {
             "src": "amdigital.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "any maskable"
+            "purpose": "any" // MODIFICAT
+        },
+        {
+            "src": "amdigital.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable" // MODIFICAT
         }
     ]
 }
+```
+
+**Ce am făcut:**
+Am duplicat fiecare intrare de iconiță și am specificat `purpose: "any"` pentru una și `purpose: "maskable"` pentru cealaltă.
+
+**Pașii următori:**
+
+1.  **Actualizați `manifest.json` pe GitHub:**
+    * Mergeți la repository-ul dumneavoastră pe GitHub (`marianmarincat/amdigital-alin-ardelean`).
+    * Deschideți fișierul `manifest.json` pentru editare.
+    * Înlocuiți conținutul său cu codul de mai sus (cu secțiunea `icons` actualizată).
+    * Salvați modificările ("Commit changes").
+
+2.  **Așteptați ca GitHub Pages să se actualizeze:**
+    * Acest lucru poate dura câteva minute.
+
+3.  **Re-analizați cu PWABuilder:**
+    * Mergeți din nou la [www.pwabuilder.com](https://www.pwabuilder.com).
+    * Introduceți URL-ul aplicației: `https://marianmarincat.github.io/amdigital-alin-ardelean/`
+    * Dați clic pe "Start".
+
+4.  **Verificați "Action Items":**
+    * Vedeți dacă eroarea legată de iconițe a dispărut.
+
+Sperăm că aceasta va satisface cerința PWABuilder și veți putea trece la generarea APK-ului!
