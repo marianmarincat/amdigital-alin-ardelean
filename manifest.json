@@ -3,7 +3,7 @@
     "short_name": "Alin Ardelean",
     "description": "Aplicație de pontaj cu cod QR pentru Alin Ardelean.",
     "lang": "ro-RO",
-    "id": "index.html", // AM ADĂUGAT ACEST CÂMP
+    "id": "index.html",
     "start_url": "index.html?launcher=true",
     "display": "fullscreen",
     "orientation": "portrait",
