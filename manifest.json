@@ -3,12 +3,17 @@
     "short_name": "Alin Ardelean",
     "description": "Aplicație de pontaj cu cod QR pentru Alin Ardelean.",
     "lang": "ro-RO",
-    "id": "index.html",
+    "id": "/",
     "start_url": "index.html?launcher=true",
+    "scope": ".",
     "display": "fullscreen",
+    "display_override": ["fullscreen", "standalone"],
     "orientation": "portrait",
     "background_color": "#ffffff",
     "theme_color": "#333333",
+    "dir": "ltr",
+    "categories": ["utilities", "tools"],
+    "prefer_related_applications": false,
     "icons": [
         {
             "src": "amdigital.png",
@@ -34,5 +39,33 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ]
+    ],
+    "shortcuts": [
+        {
+            "name": "Deschide Pontaj",
+            "short_name": "Pontaj",
+            "description": "Deschide aplicația de pontaj",
+            "url": "index.html?launcher=true",
+            "icons": [{ "src": "amdigital.png", "sizes": "192x192" }]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "amdigital.png", 
+            "sizes": "512x512",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Ecran principal aplicație"
+        },
+        {
+            "src": "amdigital.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Ecran principal aplicație mobil"
+        }
+    ],
+    "launch_handler": {
+        "client_mode": ["navigate-existing", "auto"]
+    }
 }
