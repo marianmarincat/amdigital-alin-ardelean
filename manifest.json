@@ -1,0 +1,25 @@
+{
+    "name": "AMDigital - Alin Ardelean",
+    "short_name": "Alin Ardelean",
+    "description": "Aplicație de pontaj cu cod QR pentru Alin Ardelean.",
+    "lang": "ro-RO",
+    "start_url": "index.html?launcher=true",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "background_color": "#ffffff",
+    "theme_color": "#333333",
+    "icons": [
+        {
+            "src": "amdigital.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "amdigital.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

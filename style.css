@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Previne scrollbar-urile */
+    background-color: #ffffff; /* Sau culoarea dorită pentru fundal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent; /* Elimină evidențierea la atingere pe mobil */
+}
+
+#qrImage {
+    display: block;
+    max-width: 100vw; /* Ocupă maxim lățimea ecranului */
+    max-height: 100vh; /* Ocupă maxim înălțimea ecranului */
+    width: auto;
+    height: auto;
+    object-fit: contain; /* Păstrează proporțiile și încadrează imaginea */
+}
